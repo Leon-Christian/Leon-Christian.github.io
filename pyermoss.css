@@ -1,0 +1,45 @@
+a:link {
+  background-color: #f7c222;
+  color: black;
+  padding: 14px 25px;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+}
+a:visted {
+	color: black;
+}
+a:hover {
+	background-color:#fcdf86;
+}
+
+.column {
+ background-color:#fcdf86;
+}
+header {
+		text-align: right;
+			padding-right: 50px;
+		}
+h2 {
+			font-family: "Helvetica";
+			text-align: center;
+			font-weight: lighter;
+
+		}
+ul{
+		font-family: "Times New Roman";
+		text-align: left;
+		line-height: 1.6; 
+}
+
+footer {
+			color: #f7c222;
+			text-align: center;	
+			font-family: "Times New Roman"; 
+		}
+hr {
+	color: black;
+}
