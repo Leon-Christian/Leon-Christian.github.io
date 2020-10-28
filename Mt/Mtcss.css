@@ -1,0 +1,42 @@
+a:link {
+  background-color: lightgrey;
+  color: black;
+ border: 2px solid  black;
+  font-family: "Helvetica";
+  font-weight: bolder;
+  text-align: center; 
+  text-decoration: none;
+  padding: 10px;
+ 
+}
+}
+a:visted {
+	color: #225461;
+}
+a:hover {
+	color: black;
+	text-shadow: 2px 2px lightblue;
+}
+
+h1 {
+			color: #225461;
+			font-family: "Helvetica";
+			text-align: center;
+			font-weight: bolder;
+
+		}
+h2 {
+			color: #225461;
+			text-shadow: 2px 2px darkgrey;
+	font-family: "Helvetica";
+			text-align: center;
+			font-weight: bolder;
+
+}
+img { border: 5px solid  #225461;}
+body {
+	background-image: url(Background.jpg);
+}
+div {
+	border: grey;
+}
