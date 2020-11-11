@@ -1,0 +1,41 @@
+body {
+		background: linen;
+	}
+	section {
+		padding: 4px;
+		margin-top: 10%;
+		margin-left: 25%;
+		text-align: center;
+		font-family: helvetica;
+		font-size: 20px;
+		color: brown;
+		width: 50%;
+		background-color: white;
+		border: 3px solid brown;
+
+	}
+	footer {
+		text-align: center;
+		font-family: helvetica;
+		font-size: 20px;
+		color: brown;
+	}
+	div {
+		margin-top: 10%;
+	}
+	button {
+		padding: 10px;
+		margin-left: 32%;
+		color: brown;
+		border: 3px solid brown;
+		background-color: white
+	}
+
+	button:hover {
+		padding: 11px;
+		background-color: lightgrey;
+	}
+	section:hover {
+		background-color: lightgrey;
+	}
+
