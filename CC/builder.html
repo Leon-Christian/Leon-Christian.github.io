@@ -1,0 +1,129 @@
+<html>
+ 
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>  
+  
+  <head>
+    <link rel="stylesheet" href="builder.css">
+   
+    <style>
+       #sortable1, #sortable2, #sortable3 { list-style-type: none; margin: 0; float: left; margin-right: 10px; padding: 5px; width: 143px;}
+
+        #sortable1 li, #sortable2 li, #sortable3 li { margin: 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+
+      #sortable3 { list-style-type: none; margin: 0; float: left; margin-right: 10px; 
+       
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script>
+     $( function() {
+    $( "ul.droptrue" ).sortable({
+      connectWith: "ul"
+    });
+ 
+    $( "ul.dropfalse" ).sortable({
+      connectWith: "ul",
+      dropOnEmpty: false
+    });
+ 
+    $( "#sortable1, #sortable2, #sortable3" ).disableSelection();
+  } );
+  </script>
+
+    </head>
+<section>
+        <body>
+                
+                <h2>COCKTAIL CREATOR</h2>
+              
+        <div class="row" style="border-style: solid; border-color: #2B1700;">
+          <div class="columnB">
+           <h2>  </h2>
+           <ul id="sortable3" class="droptrue">
+            <li><b>GLASS</b></li>
+            <hr>
+       </ul>
+          </div>
+          <div class="columnA" style=" text-align: center;">
+            <div class="row" style="border-style: solid; border-color: #2B1700;">
+                <p><span style="background-color: #CC9966">Hover Over Each Drink to See the Recipe</span></p>
+                <p><a href="#" class="nav-link" title=" 
+                2 ounces bourbon or rye
+                1 ounce sweet vermouth
+                2 dashes Angostura bitters
+                1 dash orange bitters
+                Garnish: brandied cherry">Manhattan|</a>
+
+                <a href="#" class="nav-link" title="
+                salt (for the rim)
+                1 1/2 ounces tequila
+                1 ounce blue curaçao
+                1 ounce lime juice">Blue Margarita |</a>             
+                    
+                <a href="#" class="nav-link" title="
+                    1 1/2 ounces silver tequila
+                    1 ounce orange liqueur 
+                    3/4 ounce lime juice
+                    Ice
+                    lime wedge and coarse salt for rimming the glass
+                    ">Classic Margarita |</a>
+
+                <a href="#" class="nav-link" title="
+                    1/2 teaspoon sugar
+                    3 dashes Angostura bitters
+                    1 teaspoon water
+                    2 ounces bourbon
+                    Garnish: orange peel">Old Fashioned |</a>
+            
+               <a href="#" class="nav-link" title="
+                    1 1/2 oz Vodka 
+                     1 oz Cranberry juice
+                     1/2 oz Cointreau
+                     1/2 oz lime juice">Cosmopolitan |</a>             
+                                
+                <a href="#" class="nav-link" title="
+                    1/2 oz Dry vermouth
+                    3 oz Gin">Martini |</a>
+
+                <a href="#" class="nav-link" title="
+                    1/2 oz White rum
+                    1 oz Fresh lime juice
+                    2 teaspoons Sugar
+                    Mint Leaves
+                    Soda Water">Mojito |</a>
+                        
+                <a href="#" class="nav-link" title="
+                1 1/3 oz Cranberry juice
+                1 1/3 oz Orange juice
+                1 1/3 oz Vodka
+                2/3 oz Peach schnapps">Sex on The Beach |</a></p>                              
+                     
+             <div class="row"style="border-style: solid;border-color: #2B1700;">
+                 <ul id="sortable2" class="dropfalse">
+                    <li>DRINKS</li>
+                    <li class="ui-state-highlight">Drink 1</li>
+                    <li class="ui-state-highlight">Drink 2</li>
+                    <li class="ui-state-highlight">Drink 3</li>
+                   </ul>
+                   
+                      <ul id="sortable1" class="droptrue">
+                      <li>FUITS</li>
+                   <li class="ui-state-default">Fruit 1</li>
+                   <li class="ui-state-default">Fruit 2</li>
+                   <li class="ui-state-default">Fruit 3</li>
+                   </ul>
+       
+                   <ul id="sortable1" class="dropfalse">
+                      <li>JUICES</li>
+                   <li class="ui-state-default">Juice 1</li>
+                   <li class="ui-state-default">Juice 2</li>
+                   <li class="ui-state-default">Juice 3</li>
+                   </ul>
+             </div>
+          </div>
+        </body>
+</section>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+/* Refrence from w3school.com */
+	* {
+  		box-sizing: border-box;
+	}
+	.column {
+  		float: left;
+ 		width: 50%;
+ 		padding: 10px;
+  		height: 75vh; 
+	}
+	.row:after {
+ 		content: "";
+  		display: table;
+  		clear: both;
+	}
+	=
+/* end of refrence*/
+  #sortable1, #sortable2, #sortable3 { list-style-type: none; margin: 0; float: left; margin-right: 10px; background: #eee; padding: 5px; width: 143px;}
+  #sortable1 li, #sortable2 li, #sortable3 li { margin: 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+
+	</style>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "ul.droptrue" ).sortable({
+      connectWith: "ul"
+    });
+ 
+    $( "ul.dropfalse" ).sortable({
+      connectWith: "ul",
+      dropOnEmpty: false
+    });
+ 
+    $( "#sortable1, #sortable2, #sortable3" ).disableSelection();
+  } );
+  </script>
+
+</head>
+
+<body>
+		
+		<h2>PAGE HEADING</h2>
+		<hr>
+	<!-- 	Drop Zone -->
+	<div class="row" style="border-style: solid;">
+ 		<div class="column">
+ 			<ul id="sortable3" class="droptrue">
+ 				<li><b>GLASS</b></li>
+ 				<hr>
+			</ul>
+   			
+ 		</div>
+	 <!-- 	Drop Zone -->
+
+ 	 <div class="column" style="border-style: solid;">
+   		<div class="row" style="border-style: solid;">
+  			<h2>Column 2, Row 1</h2>
+
+	 <!-- Drag Zone -->
+	 	<div class="row"style="border-style: solid;">
+			 <ul id="sortable2" class="droptrue">
+			 <li>DRINKS</li>
+			 <li class="ui-state-highlight">Drink 1</li>
+			 <li class="ui-state-highlight">Drink 2</li>
+			 <li class="ui-state-highlight">Drink 3</li>
+			</ul>
+			
+   			<ul id="sortable1" class="droptrue">
+   			<li>FUITS</li>
+			<li class="ui-state-default">Fruit 1</li>
+			<li class="ui-state-default">Fruit 2</li>
+			<li class="ui-state-default">Fruit 3</li>
+			</ul>
+
+			<ul id="sortable1" class="droptrue">
+   			<li>JUICES</li>
+			<li class="ui-state-default">Juice 1</li>
+			<li class="ui-state-default">Juice 2</li>
+			<li class="ui-state-default">Juice 3</li>
+			</ul>
+ 
+	 	</div>
+	 <!-- Drag Zone -->
+
+  	</div>
+	</div>
+ 
+  
+	</div>
+</body>
+	
+	<FOOTER>
+		<p><i>Created by Leon Caleb &#x263F;</i></p>
+	</FOOTER>
+</html>

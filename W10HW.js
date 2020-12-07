@@ -17,12 +17,13 @@ function next() {
 nextButton.addEventListener('click', next);
 
 
-// theTxt.addEventListener('mouseover' color);
+theTxt.addEventListener('mouseover' color);
 
-// function color() {
-// theTxt.style.Color = 'green';
+function color() {
+theTxt.textContent.style.color = 'green';
 
-// }
+}
+
 
 
 

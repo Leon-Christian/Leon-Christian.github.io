@@ -1,0 +1,66 @@
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+  
+* {
+    box-sizing: border-box;
+}
+.columnA {
+    float: left;
+   width: 75%;
+   padding: 10px;
+    height: 75vh; 
+}
+.columnB {
+    float: left;
+   width: 25%;
+   padding: 10px;
+    height: 75vh; 
+}
+.row:after {
+   content: "";
+    display: table;
+    clear: both;
+}
+.row {
+          background-image: url(https://cameronscookware.com/wp-content/uploads/2019/12/wood-desktop-background-fresh-50-hd-wood-wallpapers-for-free-download-this-year-of-wood-desktop-background.jpg);
+        }
+body {
+    background-color: #793F0D;
+}
+label {
+    display: inline-block;
+    width: 5em;
+  }
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2B1700;
+    font-weight: bold;
+}
+
+a.nav-link:link
+{
+   color: #2B1700;
+   text-decoration: none;
+
+}
+a.nav-link:visited
+{
+   color: #2B1700;;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+a.nav-link:active
+{
+   color: #2B1700;;
+   text-decoration: none;
+}
+
