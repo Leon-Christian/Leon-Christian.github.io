@@ -35,6 +35,7 @@ h2 {
 img { border: 5px solid  #225461;}
 body {
 	background-image: url(Background.jpg);
+	background-color: lightblue;
 }
 .column:hover {
 		background-color: lightblue;
@@ -42,3 +43,6 @@ body {
 footer {
 	color: #225461;
 }
+
+
+

@@ -40,3 +40,6 @@ body {
 div {
 	border: grey;
 }
+.navbar {
+	padding-left: 80px;
+}
