@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	* {
+  		box-sizing: border-box;
+	}
+	.column {
+  		float: left;
+ 		width: 40%;
+ 		margin: 5px;
+  		height: 75vh;
+  		margin-left: 5px; 
+	}
+	.row:after {
+
+  		display: table;
+  		clear: both;
+	}
+	footer {
+
+			padding-left: 45%;		
+			padding-top: 2%;
+			display: inline-block;
+	}
+	
+</style>
+<link rel="stylesheet" href="Mtcss2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header style="text-align: center;">
+		<h1>Do you Prefer...</h1>
+		<p>The audio clips may take a second or two to load</p>
+</header>
+<body>
+<div class="row" style="padding-left: 15%;">
+  <a href="blm.html"><div class="column" style="text-align: center;">
+      <h2>Guitar</h2></a>
+      <audio controls>
+  	<source src="pics/guitar.wav" type="audio/wav">
+	Your browser does not support the audio element.
+	</audio>
+     
+  </div>
+ <a href="ivh.html"><div class="column" style="text-align: center; ">
+    <h2>Ambient</h2>
+   </a>
+      <audio controls>
+  	<source src="pics/ambient_1.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+  
+    
+  </div>
+</div>
+</body>
+	
+	<FOOTER>
+		<p><i>Created by Leon Caleb &#x263F;</i></p>
+	</FOOTER>
+</html>

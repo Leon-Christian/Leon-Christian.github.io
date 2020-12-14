@@ -1,0 +1,52 @@
+a:link {
+  background-color: lightblue;
+  color: black;
+  padding: 14px 25px;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+}
+a:visted {
+	color: black;
+}
+a:hover {
+	background-color:#fcdf86;
+}
+
+.column {
+ background-color: lightblue;
+}
+h1 {
+	color: #225461;
+	text-align: center;
+}
+h3 {
+	  font-family: "Times New Roman";
+
+	color: darkgrey;
+	text-align: center;
+}
+h2 {
+			font-family: "Helvetica";
+			text-align: center;
+			font-weight: lighter;
+
+		}
+ul{
+		font-family: "Times New Roman";
+		text-align: left;
+		line-height: 1.6; 
+}
+
+footer {
+			color: lightblue;
+			text-align: center;	
+			font-family: "Times New Roman"; 
+			text-shadow: 1px .5px black;
+		}
+hr {
+	color: black;
+}
